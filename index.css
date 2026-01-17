@@ -1,0 +1,66 @@
+
+
+body {
+    font-family: Personafont, sans-serif;
+    background-image: linear-gradient(to right, rgba(146, 146, 146, 0.459),  rgba(0, 0, 0, 0.87)), url('a.png');
+    background-attachment: fixed;  
+    background-size: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+}
+
+.Mainbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.404);
+    margin-top: 100px;
+}
+
+.sticker {
+    position: absolute;
+    top: 0px;
+    margin-top: 100px;
+    
+}
+
+.lollang {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.lollang:hover {
+    transform: scale(1.5) rotate(360deg);
+    
+}
+
+.foot {
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    color: #fff; 
+    padding: 3px; 
+    width: 100%; 
+}
+
+
+.head {
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    background-color: #333;
+    color: #fff; 
+    padding: 3px; 
+    width: 100%; 
+}
